@@ -1,0 +1,127 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif KR', serif;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 시계 */
+#clock {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 로그인 폼 */
+#login-form input {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(131, 133, 136);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login-form button:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+/* 인사말 */
+#greeting {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    color: #d8d8d8;
+}
+
+/* 투두 폼 */
+#todo-form {
+    margin: 20px 0;
+}
+
+#todo-form input {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    font-size: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* 투두 리스트 */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 4px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+#todo-list li button {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* 명언 & 날씨 */
+#quote, #weather {
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    font-size: 0.9rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote {
+    left: 20px;
+}
+
+#weather {
+    right: 20px;
+    text-align: right;
+}
+
+#quote span, #weather span, #clock {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* 기타 유틸 클래스 */
+.hidden {
+    display: none;
+}
+
+
