@@ -59,5 +59,5 @@ const API_KEY = "YOUR_API_KEY_HERE";
 ```
 
 ## 📜 출처
-이 프로젝트는 Nomad Coders의 **바닐라 JS 크롬 앱 만들기 강의를 기반으로 클론코딩한 결과물입니다.
+이 프로젝트는 Nomad Coders의 **바닐라 JS 크롬 앱 만들기 강의**를 기반으로 클론코딩한 결과물입니다.
 
