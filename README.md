@@ -53,7 +53,7 @@
 
 1. 저장소 클론
    ```bash
-   git clone https://github.com/사용자명/저장소명.git
+   git clone https://github.com/inhwa-tech/TodoList_webpage.git
    ```
 
 2. 프로젝트 폴더로 이동
